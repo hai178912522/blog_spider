@@ -7,7 +7,7 @@ import requests
 from bs4 import BeautifulSoup
 
 urls =[
-    f"https://www.cnblogs.com/#p{page}" for page in range(1, 1000)
+    f"https://www.cnblogs.com/#p{page}" for page in range(1, 30)
 ]
 
 def craw(url):
